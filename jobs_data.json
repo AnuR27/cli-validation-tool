@@ -1,0 +1,5 @@
+[
+{"job":"Build", "status":"passed"},
+{"job":"Test", "status":"failed"},
+{"job":"Deploy", "status":"passed"}
+]
