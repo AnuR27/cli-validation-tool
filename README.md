@@ -20,3 +20,21 @@ A Python-based command-line tool to process job execution data from JSON files a
 # Usage
 python tool.py jobs_data.json
 python tool.py jobs_data.json --output report.txt --verbose
+
+# Example output
+=== Validation report ===
+Generated on: 2026-04-25 12:42
+Total Jobs: 3
+Passed: 2
+Failed: 1
+
+=== Job wise details ===
+Build - passed
+Test - failed
+Deploy - passed
+
+# PROJECT STRUCTURE
+.
+├── tool.py
+├── jobs_data.json
+├── report.txt
